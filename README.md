@@ -10,3 +10,6 @@ My implementation of a Stable Diffusion model in PyTorch and an attempt to serve
 - https://jalammar.github.io/illustrated-stable-diffusion/
 - https://github.com/CompVis/stable-diffusion
 - https://youtu.be/1CIpzeNxIhU
+- https://ommer-lab.com/research/latent-diffusion-models/
+- https://cdn.openai.com/papers/dall-e-2.pdf
+- 
