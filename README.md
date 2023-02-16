@@ -6,6 +6,8 @@ My implementation of a Stable Diffusion model in PyTorch and an attempt to serve
 
 <img width="1072" alt="architecture" src="https://user-images.githubusercontent.com/51334629/218391725-ec6d9174-7f85-489f-9d02-26464fa57989.png">
 
+(Maybe I'd train this on logos and rebrand it to an AI logo creator, if I get the required data)
+
 ## References
 - https://jalammar.github.io/illustrated-stable-diffusion/
 - https://github.com/CompVis/stable-diffusion
