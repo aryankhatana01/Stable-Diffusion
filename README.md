@@ -6,7 +6,6 @@ My implementation of a Stable Diffusion model in PyTorch and an attempt to serve
 
 <img width="1072" alt="architecture" src="https://user-images.githubusercontent.com/51334629/218391725-ec6d9174-7f85-489f-9d02-26464fa57989.png">
 
-(First version would only have text2img functionaity, subsequent versions might get img2img and inpainting)
 
 ## References
 - https://jalammar.github.io/illustrated-stable-diffusion/
