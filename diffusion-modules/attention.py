@@ -1,4 +1,5 @@
 import torch.nn as nn
+import torch.nn.functional as F
 
 class AttnBlock(nn.Module):
   def __init__(self, in_channels):
@@ -20,7 +21,7 @@ class AttnBlock(nn.Module):
     k = k.reshape(b,c,h*w) # b,c,hw
     w_ = q @ k
     w_ = w_ * (c**(-0.5))
-    w_ = w_.softmax()
+    w_ = F.softmax(w_)
 
     v = v.reshape(b,c,h*w)
     w_ = w_.permute(0,2,1)
