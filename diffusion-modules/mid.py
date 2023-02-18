@@ -9,5 +9,9 @@ class Mid(nn.Module):
     self.attn_1 = AttnBlock(block_in)
     self.block_2 = ResnetBlock(block_in, block_in)
 
+    self.m = nn.Sequential(self.block_1, 
+                          self.attn_1, 
+                          self.block_2)
+
   def forward(self, x):
-    return x.sequential([self.block_1, self.attn_1, self.block_2])
+    return self.m(x)
