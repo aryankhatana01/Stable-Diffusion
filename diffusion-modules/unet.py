@@ -4,8 +4,9 @@ from utils import SpatialTransformer, Upsample, timestep_embedding, Downsample
 from resnet import ResBlock
 
 
-class UNetModel:
+class UNetModel(nn.Module):
   def __init__(self):
+    super(UNetModel, self).__init__()
     self.time_embed = nn.Sequential(
       nn.Linear(320, 1280),
       nn.SiLU(),
