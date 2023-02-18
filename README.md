@@ -13,3 +13,4 @@ My implementation of a Stable Diffusion model in PyTorch and an attempt to serve
 - https://youtu.be/1CIpzeNxIhU
 - https://ommer-lab.com/research/latent-diffusion-models/
 - https://cdn.openai.com/papers/dall-e-2.pdf 
+- https://github.com/geohot/tinygrad/blob/master/examples/stable_diffusion.py
